@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://synch.inline.tender.mts.ru/" xmlns:tns="http://synch.inline.tender.mts.ru/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="GetBalances" type="tns:GetBalances"/>
+
+  <xs:element name="GetBalancesResponse" type="tns:GetBalancesResponse"/>
+
+  <xs:complexType name="GetBalances">
+    <xs:sequence>
+      <xs:element name="subscriberId" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="GetBalancesResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

@@ -15,5 +15,8 @@ Any value defined here will override the pom.xml file value but is only applicab
 -->
         <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>1.6</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>
         <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>gfv3ee6</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_ESBConfigurationService>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ESBConfigurationService.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ESBConfigurationService>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_ILAdapterWS>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ILAdapterWS.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ILAdapterWS>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_ForisWS_5f_1>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ForisWS_1.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ForisWS_5f_1>
     </properties>
 </project-shared-configuration>
