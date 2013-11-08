@@ -7,4 +7,8 @@
     <system systemId="file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ESBConfigurationService_schema1.xsd" uri="wsdl/ESBConfigurationService_schema1.xsd"/>
     <system systemId="file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ForisWS_1.wsdl" uri="wsdl/ForisWS_1.wsdl"/>
     <system systemId="file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ForisWS_schema1.xsd" uri="wsdl/ForisWS_schema1.xsd"/>
+    <system systemId="file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/forisil/ForisILBulkServiceOperationsService.wsdl" uri="wsdl/ForisILBulkServiceOperationsService.wsdl"/>
+    <system systemId="file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/forisil/ForisILBulkServiceOperationsService_schema1.xsd" uri="wsdl/ForisILBulkServiceOperationsService_schema1.xsd"/>
+    <system systemId="file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/configuration/ESBConfigurationService.wsdl" uri="wsdl/ESBConfigurationService.wsdl"/>
+    <system systemId="file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/configuration/ESBConfigurationService_schema1.xsd" uri="wsdl/ESBConfigurationService_schema1.xsd"/>
 </catalog>

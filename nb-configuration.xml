@@ -18,5 +18,7 @@ Any value defined here will override the pom.xml file value but is only applicab
         <org-netbeans-modules-maven-jaxws._5f_C_5f_ESBConfigurationService>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ESBConfigurationService.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ESBConfigurationService>
         <org-netbeans-modules-maven-jaxws._5f_C_5f_ILAdapterWS>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ILAdapterWS.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ILAdapterWS>
         <org-netbeans-modules-maven-jaxws._5f_C_5f_ForisWS_5f_1>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/ForisWS_1.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ForisWS_5f_1>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_ForisILBulkServiceOperationsService>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/forisil/ForisILBulkServiceOperationsService.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ForisILBulkServiceOperationsService>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_ESBConfigurationService_5f_1>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/configuration/ESBConfigurationService.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ESBConfigurationService_5f_1>
     </properties>
 </project-shared-configuration>
