@@ -23,23 +23,35 @@ public class ESBConfigurationServiceClient {
     public String getForisConfigurationData(String id) {
         // Создаем сообщение уровня «Method» (имя задается явно)
 //        SimpleMethodEventev = SimpleMethodEvent.startMethod(ntf, "getForisConfigurationData");
-        java.lang.String result = "";
-
+        String result = "";
+        
         try { // Call Web Service Operation
-            ru.mts.tender.inline.configuration.ESBConfigurationService service = new ru.mts.tender.inline.configuration.ESBConfigurationService();
-//            ru.mts.tender.inline.configuration.client.ESBConfigurationClientWS port = service.getILAdapterParameters(id);
+            ru.mts.tender.inline.config.client.ESBConfigurationService service = new ru.mts.tender.inline.config.client.ESBConfigurationService();
+            ru.mts.tender.inline.config.client.ESBConfigurationClientWS port = service.getESBConfigurationClientWSPort();
             // TODO initialize WS operation arguments here
-            java.lang.String msisdn = id;
+            java.lang.String msisdn = "";
             // TODO process result here
-//            result = port.getILAdapterParameters(msisdn);
-//            log.info("ForisILBulkServiceOperationsService result is : " + result);
+            result = port.getILAdapterParameters(msisdn);
+            System.out.println("Result = "+result);
         } catch (Exception ex) {
-            log.error("Exception calling ForisILBulkServiceOperationsService");
-            ex.printStackTrace();
-            // TODO обрабатываем необходимые ошибки
-
-            result = "Exception calling ForisILBulkServiceOperationsService";
+            // TODO handle custom exceptions here
         }
+
+//        try { // Call Web Service Operation
+//            ru.mts.tender.inline.configuration.ESBConfigurationService service = new ru.mts.tender.inline.configuration.ESBConfigurationService();
+////            ru.mts.tender.inline.configuration.client.ESBConfigurationClientWS port = service.getILAdapterParameters(id);
+//            // TODO initialize WS operation arguments here
+//            java.lang.String msisdn = id;
+//            // TODO process result here
+////            result = port.getILAdapterParameters(msisdn);
+////            log.info("ForisILBulkServiceOperationsService result is : " + result);
+//        } catch (Exception ex) {
+//            log.error("Exception calling ForisILBulkServiceOperationsService");
+//            ex.printStackTrace();
+//            // TODO обрабатываем необходимые ошибки
+//
+//            result = "Exception calling ForisILBulkServiceOperationsService";
+//        }
 
         // метод успешно выполнен. Добавляем метрику KPI_RETURN=result
 //        ev.completed(result);

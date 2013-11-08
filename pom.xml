@@ -22,6 +22,12 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.5</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
             <version>6.0</version>
@@ -158,6 +164,21 @@
                             <staleFile>${project.build.directory}/jaxws/stale/ESBConfigurationService_1.stale</staleFile>
                         </configuration>
                         <id>wsimport-generate-ESBConfigurationService_1</id>
+                        <phase>generate-sources</phase>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <wsdlFiles>
+                                <wsdlFile>ForisILBulkServiceOperationsService.wsdl</wsdlFile>
+                            </wsdlFiles>
+                            <packageName></packageName>
+                            <wsdlLocation>file:/K:/dvp/projects/nb_projects/Inline.task.2/Inline.task.2/src/main/resources/META-INF/wsdl/forisil/ForisILBulkServiceOperationsService.wsdl</wsdlLocation>
+                            <staleFile>${project.build.directory}/jaxws/stale/ForisILBulkServiceOperationsService_1.stale</staleFile>
+                        </configuration>
+                        <id>wsimport-generate-ForisILBulkServiceOperationsService_1</id>
                         <phase>generate-sources</phase>
                     </execution>
                 </executions>

@@ -27,7 +27,7 @@ public class ForisILBulkServiceOperationsServiceClient {
             ru.mts.tender.inline.forisil.ForisILBulkServiceOperationsService_Service service = new ru.mts.tender.inline.forisil.ForisILBulkServiceOperationsService_Service();
             ru.mts.tender.inline.forisil.ForisILBulkServiceOperationsService port = service.getForisILBulkServiceOperationsServicePort();
             // TODO initialize WS operation arguments here
-            java.lang.String suscriberId = msisdn;
+            String suscriberId = msisdn;
             // TODO process result here
             result = port.getBalances(suscriberId);
             log.info("ForisILBulkServiceOperationsService result is : " + result);
